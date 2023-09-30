@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">  
+  <link rel="stylesheet" href="css/all.min.css">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <title>ToDo List</title>
+</head>
+<body>
+  <div class="container">
+    <div class="input-text">
+      <input type="text">
+      <button class="add">+</button>
+    </div>
+    <div class="tasks">
+      <div class="no-task">No Task To Show</div>
+      <div class="new-tasks"></div>
+      <div class="line"></div>
+      <div class="finish-tasks"></div>
+      <div class="results">
+        <div class="tasks-numbers">
+          Tasks:
+          <span>0</span>
+        </div>
+        <div class="complete-numbers">
+          Completed: 
+          <span>0</span>
+        </div>
+      </div>
+      <div class="remove-done-all">
+        <div class="removeAll close">Remove All Tasks</div>
+        <div class="doneAll close">Done All Tasks</div>
+      </div>
+  </div>
+
+  <script src="logic.js"></script>
+</body>
+</html>
